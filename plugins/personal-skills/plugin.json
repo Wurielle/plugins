@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "personal-skills",
+  "version": "0.3.0",
+  "description": "Personal Codex skills",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Skills",
+        "shortDescription": "My personal Codex skills",
+        "developerName": "Wuriko",
+        "category": "Productivity"
+      }
+    }
+  }
+}
